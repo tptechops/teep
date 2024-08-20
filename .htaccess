@@ -20,3 +20,13 @@ order deny,allow
  deny from all
 allow from 18.220.246.60
 </Files>
+<IfModule mod_headers.c>
+
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    Header set X-Xss-Protection "1; mode=block"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=self"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googletagmanager.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://fonts.googleapis.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://www.gstatic.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://fonts.googleapis.com; frame-src 'self' https://www.google.com/recaptcha/ ; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+</IfModule>
