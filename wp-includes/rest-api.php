@@ -737,7 +737,7 @@ function rest_handle_doing_it_wrong( $function_name, $message, $version ) {
 function rest_send_cors_headers( $value ) {
 	$origin = get_http_origin();
 
-	if ( $origin ) {
+	if ( $origin && is_allowed_http_origin( $origin ) ) {
 		// Requests from file:// and data: URLs send "Origin: null".
 		if ( 'null' !== $origin ) {
 			$origin = sanitize_url( $origin );
