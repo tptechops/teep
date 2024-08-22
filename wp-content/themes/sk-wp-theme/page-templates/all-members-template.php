@@ -8,7 +8,11 @@ get_header();
 		<div class="container">
 			<div class="inn-bann-content">
 				<h1 class="fs-55 fw-700"><?php echo get_the_title(); ?></h1>
-				<h3 class="fs-33 mt-3">TEEP follows a Governance committees & Structure for easy delegation and ownership of responsibilities.</h3>
+				<h3 class="fs-33 mt-3 d-none">TEEP follows a Governance committees & Structure for easy delegation and ownership of responsibilities.</h3>
+				<h3 class="fs-33 mt-3">The programme is governed by Executive Committee comprising of members from Corporates, leaders from educational institutions and educationist for the purpose of:</h3>
+				<p class="mt-3">1. Ensuring effective governance and management of the program<br/>
+				   2. Making decisions that benefits the stakeholders<br/>
+ 				   3. Achieving the Vision, Mission and Objectives of the programme</p>
 			</div>
 		</div>
 	</section>
@@ -45,7 +49,7 @@ get_header();
 									<img class="team-thumb-img" src="'.$mem_pp.'" alt="">
 									<h3 class="fs-30 fw-700 mb-30">'.$mem_name.'</h3>
 									<h4 class="fs-18">'.$mem_desig.'</h4>
-									<h4 class="fs-18 fw-400 mt-2" style="color:#7e7e7e">'.$mem_role.'</h4>
+									<h4 class="fs-18 fw-400 mt-2 d-none" style="color:#7e7e7e">'.$mem_role.'</h4>
 								</div>
 								
 								<!-- popup -->
@@ -60,8 +64,8 @@ get_header();
 													</div>
 													<div class="team-memb-details">
 														<h2 class="fs-40 fw-700 mb-2">'.$mem_name.'</h2>
-														<h4 class="fs-28">'.$mem_desig.'</h4>
-														<h4 class="fs-18 fw-400 mt-2 mb-40" style="color:#7e7e7e">'.$mem_role.'</h4>
+														<h4 class="fs-28 mb-40">'.$mem_desig.'</h4>
+														<h4 class="fs-18 fw-400 mt-2 mb-40 d-none" style="color:#7e7e7e">'.$mem_role.'</h4>
 														<div class="fs-24 fw-300">'.$mem_info.'</div>
 													</div>
 												</div>

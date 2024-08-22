@@ -27,7 +27,7 @@ get_header();
 		<div class="container g-0">
 			<div class="row justify-content-end">
 				<div class="col-sm-6 col-md-6 col-lg-6">
-					<h2 class="shadow-title">Mission</h2>
+					<h2 class="shadow-title">About us</h2>
 					<div class="content-wrap mission-content-wrap">
 						<div class="fs-20 fw-300 mission-content" style="position: relative;">
 							<span class="icon_title" style="float: left;position: relative; top: 11px;">

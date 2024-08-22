@@ -46,7 +46,7 @@ get_header();
 							</div>
 						</div>
 						<ul class="contact-info-list">
-							<li>
+							<li class="d-none">
 								<a href="#" target="_blank" style="pointer-events: none">
 									<i class="fa-regular fa-map"></i>
 									<p>Tata Education Excellence Programme & Business Assessments, Tata Steel Ltd.</p>
@@ -65,23 +65,23 @@ get_header();
 				<div class="col-md-4">
 					<div class="contact-item">
 						<div class="contact-user-info">
-							<div class="contact-user-pp"><img class="user-pp-img" src="<?php echo home_url(); ?>/wp-content/uploads/2022/07/Monika-Nidhi.png" alt=""></div>
+							<div class="contact-user-pp"><img class="user-pp-img" src="<?php echo home_url(); ?>/wp-content/uploads/2023/01/rahul-kumar.png" alt=""></div>
 							<div class="user-info-wrap">
-								<h3 class="fs-20 mb-2">Ms. Monika Nidhi</h3>
-								<h4 class="fs-16">Senior Manager TQM</h4>
+								<h3 class="fs-20 mb-2">Mr. Rahul Kumar</h3>
+								<h4 class="fs-16"> Area Manager, TQM – TEEP</h4>
 							</div>
 						</div>
 						<ul class="contact-info-list">
-							<li>
+							<li class="d-none">
 								<a href="#" target="_blank" style="pointer-events: none">
 									<i class="fa-regular fa-map"></i>
 									<p>Tata Education Excellence Programme, Tata Steel Ltd.</p>
 								</a>
 							</li>
 							<li>
-								<a href="mailto:monika.nidhi@tatasteel.com" target="_blank">
+								<a href="mailto:rahul.kumar61@tatasteel.com" target="_blank">
 									<i class="fa-regular fa-envelope"></i>
-									<p>monika.nidhi@tatasteel.com</p>
+									<p>rahul.kumar61@tatasteel.com</p>
 								</a>
 							</li>
 						</ul>
@@ -98,7 +98,7 @@ get_header();
 							</div>
 						</div>
 						<ul class="contact-info-list">
-							<li>
+							<li class="d-none">
 								<a href="#" target="_blank" style="pointer-events: none">
 									<i class="fa-regular fa-map"></i>
 									<p>Tata Education Excellence Programme, Tata Steel Ltd.</p>
