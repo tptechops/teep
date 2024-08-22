@@ -30,3 +30,5 @@ allow from 18.220.246.60
     Header set Permissions-Policy "geolocation=self"
     Header always set Content-Security-Policy "default-src 'self'; script-src 'self' https://www.google.com https://www.gstatic.com https://www.google-analytics.com https://www.googletagmanager.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://fonts.googleapis.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://www.gstatic.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://fonts.googleapis.com; frame-src 'self' https://www.google.com/recaptcha/ ; font-src 'self' data: https://fonts.gstatic.com https://fonts.googleapis.com https://cdnjs.cloudflare.com; worker-src blob: ; img-src 'self' data: ;
 </IfModule>
+
+
