@@ -1,3 +1,4 @@
 *.wpress
 wp-content/plugins/
 .tmb/
+wp-content/uploads/
