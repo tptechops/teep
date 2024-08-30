@@ -2,7 +2,13 @@
 /* Template Name: All Members */
 get_header();
 ?>
-
+<style>
+.team-thumb-img {
+	width: 275px;
+	height: 275px;
+	object-fit: cover;
+}
+</style>
 <main id="primary" class="site-main">
 	<section class="inn-banner our-team-bann">
 		<div class="container">
@@ -66,7 +72,7 @@ get_header();
 														<h2 class="fs-40 fw-700 mb-2">'.$mem_name.'</h2>
 														<h4 class="fs-28 mb-40">'.$mem_desig.'</h4>
 														<h4 class="fs-18 fw-400 mt-2 mb-40 d-none" style="color:#7e7e7e">'.$mem_role.'</h4>
-														<div class="fs-24 fw-300">'.$mem_info.'</div>
+														<div class="fs-24 fw-300">'.wpautop($mem_info).'</div>
 													</div>
 												</div>
 											</div>

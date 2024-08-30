@@ -20,7 +20,7 @@ get_header();
 
 	<section class="inn-banner type-1" style="background-image: url(<?php echo home_url(); ?>/wp-content/uploads/2022/11/TEEPLegacybannervision.jpg)">
 		<div class="banner-content">
-			<h1 class="fs-55 fw-700"><span><?php echo get_the_title(); ?></span></h1>
+			<h1 class="fs-55 fw-700 d-none"><span><?php echo get_the_title(); ?></span></h1>
 		</div>
 	</section>
 	<section class="py-5">
@@ -45,7 +45,7 @@ get_header();
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-6">
 					<div class="image-wrap mission-element">
-						<img class="mission-image" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" width="100%" style="padding: 0px !important; width: 100%;">
+						<img class="mission-image mt-0" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" width="100%" style="padding: 0px !important; width: 100%;">
 					</div>
 				</div>
 			</div>

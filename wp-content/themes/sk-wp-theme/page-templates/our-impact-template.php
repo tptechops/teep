@@ -170,10 +170,10 @@ img.oi-image-1 {
 	
 	
 	<section class="py-5 our-stories-section">
-		<h2 class="shadow-title">Journeys</h2>
+		<h2 class="shadow-title">Journey</h2>
 		<div class="container">
 			<div class="section-title  text-uppercase color-518ADA">
-				<h2 class="fs-55 fw-700">School Journeys</h2>
+				<h2 class="fs-55 fw-700">School Journey</h2>
 			</div>
 			
 			<div class="section-content d-none">

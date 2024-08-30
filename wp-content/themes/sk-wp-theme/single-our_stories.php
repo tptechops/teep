@@ -34,7 +34,7 @@
 									<div class="image-wrap story-image-wrap">
 										<img class="" src="'.$story_main_image.'" alt="">
 									</div>
-									<div class="story-trans-wrap">
+									<div class="story-trans-wrap d-none">
 										<h3 class="fs-24 fw-600 story-trans-title">Transformation</h3>
 										<div class="row">
 											<div class="col-md-6 col-6">
@@ -53,7 +53,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-12">
+							<div class="col-12 mt-5">
 								<div class="story-content-block">
 									<div class="story-title-wrap">
 										<h4 class="fs-24 fw-600 d-none">Title: <span>'.$story_title.'</span></h4>

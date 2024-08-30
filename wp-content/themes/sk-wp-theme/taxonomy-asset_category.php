@@ -61,9 +61,12 @@ get_header();
 								$ass_details = $ass_details ? '<p class="mt-4">'.$ass_details.'</p>' : '';
 								
 								$ass_pdf = get_field("pdf");
-								$ass_pdf = $ass_pdf ? '<a class="def-btn btn-1 mt-5" href="'.$ass_pdf.'" target="_blank">Download PDF</a>' : '';
+								$ass_pdf = $ass_pdf ? '<a class="def-btn btn-1 mt-5 mr-5" href="'.$ass_pdf.'" target="_blank">Download PDF</a>' : '';
 								
-								$ass_data = $ass_date . $ass_details . $ass_pdf;
+								$external_link = get_field("news_external_link");
+								$external_link = $external_link ? '<a class="def-btn btn-1 mt-5" href="'.$external_link.'" target="_blank">Read More</a>' : '';
+
+								$ass_data = $ass_date . $ass_details . $ass_pdf . $external_link;
 								
 								echo '<div class="col-md-4">
 										<div class="nl-item">

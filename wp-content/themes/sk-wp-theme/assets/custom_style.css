@@ -570,6 +570,9 @@ opacity: 0.5;
 	margin-bottom: 60px;
 }
 
+.story-content-block {
+    margin-left: 0px !important;
+} 
 /* .mission-content > h2:first-child{
 color: #518ADA;
 margin: 0 0 10px 0;
@@ -668,7 +671,7 @@ a.def-btn.btn-1.mission-readmore-btn.active i {
 }
 
 .oi-content-1 h2 {
-	font-size: 5rem;
+	font-size: 4.1rem;
 	font-weight: 600;
 	line-height: 1.1;
 	color: #518ADA;

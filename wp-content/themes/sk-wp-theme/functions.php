@@ -1918,13 +1918,16 @@ function login_error_message($error){
 
 // users will not be accessible by wp-json
 add_filter('rest_pre_dispatch', function ($response, $server, $request) {
-    if ($request->get_route() === '/wp/v2/users' || $request->get_route() === '/wp/v2') {
+    // Check if the route starts with /wp/v2
+    if (strpos($request->get_route(), '/wp/v2') === 0) {
+        // Restrict access if the user is not logged in or doesn't have the required capability
         if (!is_user_logged_in() || !current_user_can('manage_options')) { // Adjust capability if needed
             return new WP_Error('rest_forbidden', 'You do not have permission to access this endpoint.', array('status' => 403));
         }
     }
     return $response;
 }, 10, 3);
+
 
 // users will not be access registration page
 function restrict_registration_page() {
