@@ -93,10 +93,10 @@ define('SCRIPT_DEBUG', true);
 
 define('SAVEQUERIES', true);
 
-define( 'WP_DEBUG_DISPLAY', true );
+define( 'WP_DEBUG_DISPLAY', false );
 
 
-@ini_set( 'display_errors', 1 );
+@ini_set( 'display_errors', 0 );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
